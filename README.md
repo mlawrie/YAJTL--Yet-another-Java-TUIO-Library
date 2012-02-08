@@ -1,12 +1,37 @@
 ### YAJTL: Yet Another Java TUIO Library
 
-YAJTL is a basic TUIO library that is **NOT licensed with GPL or other licenses unfreindly to commercial work**.
+YAJTL is a basic, easy to use TUIO library that is **NOT licensed with GPL or other licenses unfreindly to commercial work**.
 The reference TUIO Java implementation is GPL-licensed, which makes it hard for people like me to write TUIO Java applications
 that we intend to use commercially or license under something other than the GPL. Instead, this project is licensed under the permissive MIT license.
 
 Beyond that, it is probably not as good as the reference implementation, though I really don't know as I have never used it.
 
 ----
+
+### It is easy to use
+
+Here is all the code needed to use it. Simple, huh?
+
+	TUIOReceiver tuio = new TUIOReceiver(1024,768);
+	tuio.setHandler(new TUIOEvent() {
+
+		@Override
+		public void moveCursorEvent(TUIOCursor c) {
+			//Do something
+		}
+
+		@Override
+		public void newCursorEvent(TUIOCursor c) {
+			//Do something
+		}
+
+		@Override
+		public void removeCursorEvent(TUIOCursor c) {
+			//Do something
+		}
+	
+	});
+
 
 ### Asynchronous vs Synchronous Use
 
