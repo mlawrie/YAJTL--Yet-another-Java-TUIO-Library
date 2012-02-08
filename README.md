@@ -1,6 +1,6 @@
 ### YAJTL: Yet Another Java TUIO Library
 
-YAJTL is a basic, easy to use TUIO library that is **NOT licensed with GPL or other licenses unfreindly to commercial work**.
+YAJTL is a basic, easy to use TUIO library that is **NOT licensed with GPL or other licenses unfreindly to commercial work**. It only supports the 2DCur commands but very few projects require anything else.
 The reference TUIO Java implementation is GPL-licensed, which makes it hard for people like me to write TUIO Java applications
 that we intend to use commercially or license under something other than the GPL. Instead, this project is licensed under the permissive MIT license.
 
