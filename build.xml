@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="main">
+
+   
+    <target name="jar">
+        <mkdir dir="build"/>
+        <jar destfile="build/yajtl.jar" basedir="bin">
+        </jar>
+    </target>
+
+	<target name="main" depends="jar"/>
+   </project>
