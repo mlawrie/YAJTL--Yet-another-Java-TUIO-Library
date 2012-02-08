@@ -15,17 +15,14 @@ Here is all the code needed to use it. Simple, huh?
 	TUIOReceiver tuio = new TUIOReceiver(1024,768);
 	tuio.setHandler(new TUIOEvent() {
 
-		@Override
 		public void moveCursorEvent(TUIOCursor c) {
 			//Do something
 		}
 
-		@Override
 		public void newCursorEvent(TUIOCursor c) {
 			//Do something
 		}
 
-		@Override
 		public void removeCursorEvent(TUIOCursor c) {
 			//Do something
 		}
