@@ -35,8 +35,8 @@ Here is all the code needed to use it. Simple, huh?
 In order to facilitate use of this library in simple uses like Processing, I've created a `SingleThreadTUIOWrapper` class. Since YAJTL by default operates in its own thread
 and fires events anychronously, one must account for this asynchronous nature by offering some sort of thread safety in one's code. If that is not desired,
 `SingleThreadTUIOWrapper` is the solution. The server still runs in its own thread, but events are fired from a special logic function when it is called. Typically, this logic function
-should be called once per frame in your application. If you don't know what I am talking about, use the wrapper. You can see how it is used in `src/example/SyncExample.java`.
+should be called once per frame in your application. If you don't know what I am talking about, use the wrapper. You can see how it is used in `[src/example/SyncExample.java](src/example/SyncExample.java)`.
 
 ### Using in your own projects
 
-Grab the jar from the `build/` folder and go to it. Check out the examples in `examples/`. You will also need a copy of [Java OSC](https://github.com/hoijui/JavaOSC). I have also included one in the `lib/` folder.
+Grab the [jar](build/yajtl.jar) from the `[build/](build/)` folder and go to it. Check out the examples in `examples/`. You will also need a copy of [Java OSC](https://github.com/hoijui/JavaOSC). I have also included one in the `lib/` folder.
