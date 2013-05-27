@@ -39,4 +39,4 @@ should be called once per frame in your application. If you don't know what I am
 
 ### Using in your own projects
 
-Grab the [jar](build/yajtl.jar) from the `build/` folder and go to it. Check out the examples in `examples/`. You will also need a copy of [Java OSC](https://github.com/hoijui/JavaOSC). I have also included one in the `lib/` folder.
+Grab the [jar](build/yajtl.jar) from the `build/` folder and go to it. Check out the examples in `examples/`. You will also need a copy of [Java OSC](https://github.com/hoijui/JavaOSC). I have also included [one](lib/javaosc.jar) in the `lib/` folder.
